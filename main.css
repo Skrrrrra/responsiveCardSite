@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Pompadur;
+    src: url("/fonts/ChareInk-Regular.ttf");
+}
+body{
+    background-color: #153956;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+.logo{
+    margin-left: 4%;
+    text-align: left;
+    max-width: 32.333%;
+    min-width: 33.333%;
+    min-height: 20%;
+    max-height: 20%;
+    font-size: 500%;
+    color:  #f2a278;
+    text-shadow: 2px 0 0 black;
+    font-family: Pompadur;
+}
+
+.menu{
+    max-width: 33.333%;
+    min-width: 33.333%;
+}
+.text{
+    display: inline-flex;
+    font-size: 200%;
+    color:  #f2a278;
+    text-shadow: 2px 0 0 black;
+}
+nav{
+    text-align: left;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 20%;
+    min-height: 20%;
+    display: inline-flex;
+    line-height: 100px;
+}
+.navMenu{
+    font-family: Pompadur;
+    list-style-type: none;
+    display: inline-flex;
+}
+.contactBar{
+    font-family: Pompadur;
+
+    text-align: left;
+    max-width: 33.333%;
+    min-width: 33.333%;
+    min-height: 20%;
+    max-height: 20%;
+    font-size: 300%;
+    color:  #f2a278;
+}
+li{
+    margin-left: 10%;
+}
+.inline{
+    display: inline-flex;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+  }
+.fa-vk{
+    color: #f2a278; 
+}
+.fa-telegram{
+    color: #f2a278; 
+}
+.fa-github{
+    color: #f2a278; 
+}
+.Title{
+    font-size: 550%;
+    color: #f2a278;
+}
+.info{
+    color: aliceblue;
+    font-size: 250%;
+}
+.stolbik{
+    width: 80%;
+    margin-left: -35%;
+    margin-top: 10%;
+    text-shadow: 2px 0 0 black;
+}
+.image{
+    margin-left: 30%;
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 100%;
+    border: 6px solid #f2a278;
+}
+.aboutMe{
+    font-family: Pompadur;
+    margin-left: 30%;
+    margin-top: 14%;
+    display: inline-flex;
+    max-width: 100%;
+    max-height: 50%;
+}
+.getintouch{
+    font-family: Pompadur;
+    text-shadow: 2px 0 0 black;
+    color:#205480;
+    font-size: 350%;
+    text-decoration: none;
+    line-height: 250%;
+}
+.button{
+    max-width: 43%;
+    min-width: 40%;
+    max-height: 25%;
+    min-height: 25%;
+    text-align: center;
+    background-color: #f2a278;
+    margin-left: 15%;
+    margin-top: 10%;
+    border-color: 1px solid black;
+    box-shadow: -12px 12px 1px 8px rgba(3, 3, 26, 0.2);
+    
+}
+.button:hover{
+    margin-left: 14%;
+    margin-top: 10.3%;
+    background-color: #f2a278;
+    opacity: 0.7;
+    box-shadow: -10px 10px 5px 0px rgba(3, 3, 26, 0.2);
+}
