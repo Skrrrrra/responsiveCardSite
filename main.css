@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: Pompadur;
-    src: url("/fonts/ChareInk-Regular.ttf");
+    src: url("fonts/ChareInk-Regular.ttf");
 }
 body{
     background-color: #153956;
